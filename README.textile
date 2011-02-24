@@ -7,6 +7,7 @@ h1. Installation
 Just add file 'jquery.toSentence.js' after jquery.
 
 h1. Basic usage
+
 Using toSentence can be quite easy as well. Simply call:
 
 <code>
