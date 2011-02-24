@@ -1,0 +1,3 @@
+h1. jquery.toSentence
+
+Description will be here.
