@@ -1,3 +1,15 @@
+/*
+
+toSentence v1.7.5
+Copyright 2011 Alexey Osipenko
+http://osipenko.in.ua
+
+Requires jQuery 1.4 or newer
+
+License:
+MIT License - http://www.opensource.org/licenses/mit-license.php
+
+*/
 (function($) {
   $.toSentence = function(array, options) {
     options = jQuery.extend({}, options);

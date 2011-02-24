@@ -1,3 +1,23 @@
 h1. jquery.toSentence
 
-Description will be here.
+Global jquery function for sentenice elements with comma. The latest element will joined with 'and'. Two elements will joined with 'and'
+
+h1. Installation
+
+Just add file 'jquery.toSentence.js' after jquery.
+
+h2 Basic usage
+Using toSentence can be quite easy as well. Simply call:
+
+bc.
+ $.toSentence(["Peter", "Jonny", "Betty"]); // => "Peter, Jonny and Betty"
+
+h1. Extra parameters
+
+p. You can pass in extra parameters. To pass in parameters, use hash.
+* two_words_connector (' and ' by default)
+* last_word_connector (' and ' by default)
+* words_connector (', ' by default)
+
+bc.
+ $.toSentence(["Peter", "Jonny", "Betty"], { last_word_connector: " and finally " }); // => "Peter, Jonny and finally Betty"
