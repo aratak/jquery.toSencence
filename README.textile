@@ -6,11 +6,12 @@ h1. Installation
 
 Just add file 'jquery.toSentence.js' after jquery.
 
-h2 Basic usage
+h1. Basic usage
 Using toSentence can be quite easy as well. Simply call:
 
-bc.
- $.toSentence(["Peter", "Jonny", "Betty"]); // => "Peter, Jonny and Betty"
+<code>
+$.toSentence(["Peter", "Jonny", "Betty"]); // => "Peter, Jonny and Betty"
+</code>
 
 h1. Extra parameters
 
@@ -19,5 +20,7 @@ p. You can pass in extra parameters. To pass in parameters, use hash.
 * last_word_connector (' and ' by default)
 * words_connector (', ' by default)
 
-bc.
+<code>
  $.toSentence(["Peter", "Jonny", "Betty"], { last_word_connector: " and finally " }); // => "Peter, Jonny and finally Betty"
+</code>
+
